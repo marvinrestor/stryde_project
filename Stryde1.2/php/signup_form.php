@@ -10,8 +10,9 @@
 </head>
 <body>
 
+<header><h1 class="uk-heading-primary uk-text-center uk-padding"> <a href="../index.php">STRYDE</a></h1></header>
 	<!--form-->
-<div class="uk-placeholder uk-text-center">
+<div id="signup_form_div" class="uk-placeholder uk-text-center">
 	<h3>First name:</h3> <input class="uk-input uk-form-width-large" type="text" name="">
 	<h3>Last name:</h3> <input class="uk-input uk-form-width-large" type="text" name="">
 	<h3>Email:</h3> <input class="uk-input uk-form-width-large" type="text" name="">

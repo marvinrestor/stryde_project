@@ -105,7 +105,7 @@
 
     <div class="uk-navbar-right uk-padding">
         
-             <a href="#">Signup</a>|<a href="php/Login.php">Login</a>
+             <a href="php/signup_form.php">Signup</a>|<a href="php/Login.php">Login</a>
             
     </div>
 
