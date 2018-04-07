@@ -10,6 +10,15 @@
 </head>
 <body>
 
+	<!--form-->
+<div class="uk-form-file">
+	
+	<p>First name:</p> <input class="uk-input uk-form-width-medium" type="text" placeholder="medium" name="">
+	<p>Last name:</p> <input class="uk-input uk-form-width-medium" type="text" name="">
+	<p>Email:</p> <input class="uk-input uk-form-width-medium" type="text" name="">
+	<p>Age:</p> <input class="uk-input uk-form-width-medium" type="text" name="">
+
+</div>
 
 
 
