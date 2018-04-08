@@ -21,27 +21,11 @@ include "header.php";
 
 <h2 class="profile_name_display">Marvin T. Restor</h2>
 
-<div id="profile_tab">
-<ul uk-tab>
-    <li class="uk-active"><a href="#">Active</a></li>
+<ul class="uk-tab-bottom" uk-tab>
+    <li class="uk-active"><a href="#">Left</a></li>
     <li><a href="#">Item</a></li>
-    <li>
-        <a href="#">More <span class="uk-margin-small-left" uk-icon="icon: triangle-down"></span></a>
-        <div uk-dropdown="mode: click">
-            <ul class="uk-nav uk-dropdown-nav">
-                <li class="uk-active"><a href="#">Active</a></li>
-                <li><a href="#">Item</a></li>
-                <li class="uk-nav-header">Header</li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#">Item</a></li>
-            </ul>
-        </div>
-    </li>
+    <li><a href="#">Item</a></li>
 </ul>
-
-
 
 <div id="offcanvas-slide" uk-offcanvas>
     <div class="uk-offcanvas-bar">
@@ -57,7 +41,7 @@ include "header.php";
         </ul>
 
     </div>
-</div>
+</div><!--offcanvas-slide-->
 </div><!--end of profile_tab-->
 	</div><!--end of profile_page-->
 
