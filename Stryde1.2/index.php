@@ -103,7 +103,7 @@
 
     </div>
 
-    <div class="uk-navbar-right uk-padding">
+    <div class="uk-navbar-right uk-margin-right">
         
              <a href="php/signup_form.php">Signup</a>|<a href="php/Login.php">Login</a>
             

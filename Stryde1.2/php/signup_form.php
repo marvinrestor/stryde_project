@@ -19,6 +19,8 @@
 	<h3>Age:</h3> <input class="uk-input uk-form-width-small" type="text" name="">
 	<h3>Address</h3> <input class="uk-input uk-form-width-large" type="text" name=""></br>
 	<input class="uk-input uk-form-width-large" type="text" name=""></br></br>
+	<h3>Password:</h3> <input class="uk-input uk-form-width-large" type="password" name="">
+	<h3>Confirm Password:</h3> <input class="uk-input uk-form-width-large" type="password" name=""></br></br>
 <button class="uk-button uk-button-primary uk-button-large uk-margin-small-bottom uk-margin-top uk-margin-bottom">submit</button>
 </div>
 
