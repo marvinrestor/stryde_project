@@ -12,10 +12,10 @@
 	<header>
 <h1 class="uk-heading-primary"> <a href="index.php">STRYDE</a></h1>
 <!--Navigationbar-->
-<nav class="uk-navbar-container " uk-navbar="boundary-align: true; align: center;" >
+<nav class="uk-navbar-container" uk-navbar="boundary-align: true; align: center;" >
     <div class="uk-navbar-left ">
 
-        <ul class="uk-navbar-nav">
+        <ul class="uk-navbar-nav ">
             <li>
                 <a href="#">Events</a>
                 <div class="uk-navbar-dropdown">
@@ -31,7 +31,7 @@
                 </div>
             </li>
             <li>
-                <a href="#">Promos</a>
+                <a href="#" >Promos</a>
                 <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
                     <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
                         <div>
