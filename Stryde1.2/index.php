@@ -158,6 +158,7 @@
 
     </div>
 </div>
+<hr class="uk-divider-icon">
 <?php 
 include "php/footer.php";
 ?>

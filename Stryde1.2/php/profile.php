@@ -16,11 +16,49 @@ include "header.php";
 
 <div id="Profile_page_wrap" class="uk-container-large">
 	<div class="uk-placeholder" id="profile_page">
-		
+	<a href="#offcanvas-slide" class="uk-position-top-right uk-button uk-button-default uk-margin-medium-right uk-margin-medium-top" uk-toggle>	 <span uk-icon="icon: cog"></span></a>
 <img src="../images/avatar_img_sample.png" class="uk-position-top-center " id="profile_img"></br>
 
 <h2 class="profile_name_display">Marvin T. Restor</h2>
 
+<div id="profile_tab">
+<ul uk-tab>
+    <li class="uk-active"><a href="#">Active</a></li>
+    <li><a href="#">Item</a></li>
+    <li>
+        <a href="#">More <span class="uk-margin-small-left" uk-icon="icon: triangle-down"></span></a>
+        <div uk-dropdown="mode: click">
+            <ul class="uk-nav uk-dropdown-nav">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+        </div>
+    </li>
+</ul>
+
+
+
+<div id="offcanvas-slide" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+
+        <ul class="uk-nav uk-nav-default">
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li><a href="#">Item</a></li>
+            <li class="uk-nav-header">Header</li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+
+    </div>
+</div>
+</div><!--end of profile_tab-->
 	</div><!--end of profile_page-->
 
 </div><!--end of profile page wrap-->
