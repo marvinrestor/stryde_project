@@ -12,8 +12,9 @@
 
 <header><h1 class="uk-heading-primary uk-text-center uk-padding uk-margin-top"> <a href="../index.php">STRYDE</a></h1></header>
 	<!--form-->
-<div id="signup_form_div" class="uk-placeholder uk-text-center uk-margin-bottom">
-	<h3>First name:</h3> <input class="uk-input uk-form-width-large" type="text" name="firstname" required>
+	<form action="<?php echo htmlspecialchars($SERVER["PHP_SELF"]);?>" method="post">
+<div id="signup_form_div" class="uk-placeholder uk-text-center uk-margin-bottom from-group<?echo!empty($username_err))'has-error':'';?>">
+	<h3>Username:</h3> <input class="uk-input uk-form-width-large" type="text" name="username" value="<?php echo $username; ?>"> required>
 	<h3>Last name:</h3> <input class="uk-input uk-form-width-large" type="text" name="lastname" required>
 	<h3>Email:</h3> <input class="uk-input uk-form-width-large" type="text" name="email" required>
 	<h3>Age:</h3> <input class="uk-input uk-form-width-small" type="text" name="" required>
@@ -23,7 +24,7 @@
 	<h3>Confirm Password:</h3> <input class="uk-input uk-form-width-large" type="password" name="confpassword" required></br></br>
 <button class="uk-button uk-button-primary uk-button-large uk-margin-small-bottom uk-margin-top uk-margin-bottom">submit</button>
 </div>
-
+</form>
 
 
 
